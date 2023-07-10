@@ -19,7 +19,7 @@ body {
     display: flex;
     justify-content: start;
 }
-section{
+.amount-section{
     /* display: inline; */
     width: 50%;
     height: fit-content;
