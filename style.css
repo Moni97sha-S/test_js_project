@@ -262,7 +262,7 @@ main{
 .accessories-imagesDiv{
     display:flex;
     justify-content: start;
-    /* flex-wrap:wrap; */
+    flex-wrap:wrap;
 }
 .accessoriesImages{
     width:100%;
