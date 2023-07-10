@@ -39,7 +39,7 @@ $(document).ready(function () {
         let  imageLeftBlock = $("<div>").addClass("imageLeftBlock");
         let  leftProdImg = $("<img>").attr("src", data[i].preview);
         let  rightDetails = $("<div>").addClass("rightDetails");
-        let  rightHeading = $("<h3>").addClass("rightHead").html(data[i].name);
+        let  rightHeading = $("<h4>").addClass("rightHead").html(data[i].name);
         let  rightProdCount = $("<p>")
         .addClass("rightProdCount")
         .html("x" + count);
